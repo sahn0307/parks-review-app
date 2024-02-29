@@ -1,5 +1,12 @@
+import NavBar from "../components/NavBar";
+
 function SubmitPark() {
-  console.log("Hi")
+  return(
+    <>
+      <NavBar />
+      <h1>Submit a Park!</h1>
+    </>
+  )
 }
 
 export default SubmitPark;
