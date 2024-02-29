@@ -1,0 +1,124 @@
+{
+    "nationalParks": [
+      {
+        "id": 1,
+        "name": "Great Smoky Mountains National Park",
+        "visitors": "12.5 million",
+        "location": "Tennessee and North Carolina"
+      },
+      {
+        "id": 2,
+        "name": "Grand Canyon National Park",
+        "visitors": "5.9 million",
+        "location": "Arizona"
+      },
+      {
+        "id": 3,
+        "name": "Rocky Mountain National Park",
+        "visitors": "4.7 million",
+        "location": "Colorado"
+      },
+      {
+        "id": 4,
+        "name": "Zion National Park",
+        "visitors": "4.5 million",
+        "location": "Utah"
+      },
+      {
+        "id": 5,
+        "name": "Yosemite National Park",
+        "visitors": "4.4 million",
+        "location": "California"
+      },
+      {
+        "id": 6,
+        "name": "Yellowstone National Park",
+        "visitors": "4.2 million",
+        "location": "Wyoming, Montana, and Idaho"
+      },
+      {
+        "id": 7,
+        "name": "Acadia National Park",
+        "visitors": "3.5 million",
+        "location": "Maine"
+      },
+      {
+        "id": 8,
+        "name": "Grand Teton National Park",
+        "visitors": "3.3 million",
+        "location": "Wyoming"
+      },
+      {
+        "id": 9,
+        "name": "Olympic National Park",
+        "visitors": "3.2 million",
+        "location": "Washington"
+      },
+      {
+        "id": 10,
+        "name": "Glacier National Park",
+        "visitors": "3 million",
+        "location": "Montana"
+      },
+      {
+        "id": 11,
+        "name": "Joshua Tree National Park",
+        "visitors": "2.9 million",
+        "location": "California"
+      },
+      {
+        "id": 12,
+        "name": "Bryce Canyon National Park",
+        "visitors": "2.6 million",
+        "location": "Utah"
+      },
+      {
+        "id": 13,
+        "name": "Cuyahoga Valley National Park",
+        "visitors": "2.5 million",
+        "location": "Ohio"
+      },
+      {
+        "id": 14,
+        "name": "Indiana Dunes National Park",
+        "visitors": "2.3 million",
+        "location": "Indiana"
+      },
+      {
+        "id": 15,
+        "name": "Arches National Park",
+        "visitors": "1.7 million",
+        "location": "Utah"
+      },
+      {
+        "id": 16,
+        "name": "Shenandoah National Park",
+        "visitors": "1.6 million",
+        "location": "Virginia"
+      },
+      {
+        "id": 17,
+        "name": "Haleakalā National Park",
+        "visitors": "1.5 million",
+        "location": "Hawaii"
+      },
+      {
+        "id": 18,
+        "name": "Capitol Reef National Park",
+        "visitors": "1.2 million",
+        "location": "Utah"
+      },
+      {
+        "id": 19,
+        "name": "Badlands National Park",
+        "visitors": "1.1 million",
+        "location": "South Dakota"
+      },
+      {
+        "id": 20,
+        "name": "Everglades National Park",
+        "visitors": "1 million",
+        "location": "Florida"
+      }
+    ]
+  }
