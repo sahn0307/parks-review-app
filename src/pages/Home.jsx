@@ -11,6 +11,8 @@ function Home() {
     .catch(err => console.log(err))
   }, []);
 
+  
+
   return(
     <>
       <NavBar />
