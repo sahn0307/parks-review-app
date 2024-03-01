@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import NavBar from "../components/NavBar";
 import ParksList from "../components/ParksList";
+import SearchBar from "../components/SearchBar";
 
 function Home() {
 const [parks, setParks] = useState([]);
@@ -18,6 +19,7 @@ const [parks, setParks] = useState([]);
       <NavBar />
       <h1>This is the Homepage</h1>
       <ParksList parks={parks} />
+      <SearchBar />
     </>
   )
 }
