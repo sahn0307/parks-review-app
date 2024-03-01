@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import NavBar from "../components/NavBar";
 
+
 function Home() {
   const [parks, setParks] = useState([]);
 
@@ -17,6 +18,8 @@ function Home() {
     <>
       <NavBar />
       <h1>This is the Homepage</h1>
+      <p>{parks[1].name}</p>
+      <img src={parks[1].image} alt={parks[0].name}></img>
     </>
   )
 
