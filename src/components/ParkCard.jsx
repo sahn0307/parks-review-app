@@ -6,6 +6,7 @@ function ParkCard({ name, image }) {
       <img src={image} alt={name} />
       <h4>{name}</h4>
       <button>Show Details</button>
+      <button>Add to Wishlist</button>
     </li>
   )
 }
