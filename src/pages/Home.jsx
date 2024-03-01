@@ -1,9 +1,10 @@
 import { useState, useEffect } from "react";
 import NavBar from "../components/NavBar";
-
+import ParksList from "../components/ParksList";
 
 function Home() {
-  const [parks, setParks] = useState([]);
+const [parks, setParks] = useState([]);
+
 
   useEffect(() => {
     fetch("http://localhost:3000/nationalParks")
@@ -12,17 +13,13 @@ function Home() {
     .catch(err => console.log(err))
   }, []);
 
-  
-
   return(
     <>
       <NavBar />
       <h1>This is the Homepage</h1>
-      <p>{parks[1].name}</p>
-      <img src={parks[1].image} alt={parks[0].name}></img>
+      <ParksList parks={parks} />
     </>
   )
-
 }
 
 

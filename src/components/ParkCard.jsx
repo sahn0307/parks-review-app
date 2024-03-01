@@ -1,8 +1,10 @@
-function ParkCard() {
+
+
+function ParkCard({ name, image }) {
   return (
     <li className="park-card" >
-      <img />
-      <h4>{/*name*/}</h4>
+      <img src={image} alt={name} />
+      <h4>{name}</h4>
       <button>Show Details</button>
     </li>
   )
