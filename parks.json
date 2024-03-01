@@ -1,4 +1,4 @@
-  {
+{
   "nationalParks": [
     {
       "id": 1,
@@ -159,6 +159,13 @@
       "location": "Florida",
       "description": "The largest tropical wilderness of any kind in the U.S., known for its vast and varied ecosystems, including mangrove forests, sawgrass marshes, and pine flatwoods.",
       "image": "./src/assets/images/everglades.jpg"
+    },
+    {
+      "id": "83a7",
+      "name": "Redwood National Park",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/shoyu-ramen-1648743360.gif?crop=1.00xw:0.669xh;0,0.145xh&resize=980:*",
+      "location": "California",
+      "description": "big trees & lots of em"
     }
   ]
 }
