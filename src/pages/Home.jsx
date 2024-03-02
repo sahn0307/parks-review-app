@@ -5,6 +5,7 @@ import SearchBar from "../components/SearchBar";
 
 function Home() {
 const [parks, setParks] = useState([]);
+const [searchQuery, setSearchQuery] = useState('');
 
 
   useEffect(() => {
@@ -14,12 +15,17 @@ const [parks, setParks] = useState([]);
     .catch(err => console.log(err))
   }, []);
 
+const filteredParks = parks.filter(park =>
+  park.name.toLowerCase().includes(searchQuery.toLowerCase())
+);
+
+
   return(
     <>
       <NavBar />
-      <h1>This is the Homepage</h1>
-      <ParksList parks={parks} />
-      <SearchBar />
+      <SearchBar searchQuery={searchQuery} setSearchQuery={setSearchQuery}/>
+      <ParksList parks={filteredParks} />
+      
     </>
   )
 }
