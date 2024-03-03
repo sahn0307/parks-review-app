@@ -161,6 +161,165 @@
       "image": "./src/assets/images/everglades.jpg"
     },
     {
+      "id": 21,
+      "name": "Shenandoah National Park",
+      "visitors": "1.4 million",
+      "location": "Virginia",
+      "description": "Known for its Skyline Drive and over 200,000 acres of protected lands that are haven to deer, songbirds, and black bear.",
+      "image": "./src/assets/images/shenandoah.jpg"
+    },
+    {
+      "id": 22,
+      "name": "Capitol Reef National Park",
+      "visitors": "1.2 million",
+      "location": "Utah",
+      "description": "Features the unique Waterpocket Fold, a nearly 100-mile long warp in the Earth's crust.",
+      "image": "./src/assets/images/capitol-reef.jpg"
+    },
+    {
+      "id": 23,
+      "name": "Everglades National Park",
+      "visitors": "1.2 million",
+      "location": "Florida",
+      "description": "The largest tropical wilderness of any kind in the U.S., known for its vast and varied ecosystems.",
+      "image": "./src/assets/images/everglades.jpg"
+    },
+    {
+      "id": 24,
+      "name": "Sequoia National Park",
+      "visitors": "1.2 million",
+      "location": "California",
+      "description": "Famous for its giant sequoia trees, including the General Sherman Tree, the largest tree on Earth.",
+      "image": "./src/assets/images/sequoia.jpg"
+    },
+    {
+      "id": 25,
+      "name": "Death Valley National Park",
+      "visitors": "1.1 million",
+      "location": "California and Nevada",
+      "description": "Holds the record for the hottest place on earth, offering desolate and yet strikingly beautiful desert landscapes.",
+      "image": "./src/assets/images/death-valley.jpg"
+    },
+    {
+      "id": 26,
+      "name": "Haleakalā National Park",
+      "visitors": "1.1 million",
+      "location": "Hawaii",
+      "description": "Covers the dormant Haleakalā Volcano, offering views of sunrise and sunset above the clouds.",
+      "image": "./src/assets/images/haleakala.jpg"
+    },
+    {
+      "id": 27,
+      "name": "Badlands National Park",
+      "visitors": "1 million",
+      "location": "South Dakota",
+      "description": "Features striking geologic deposits and one of the world’s richest fossil beds.",
+      "image": "./src/assets/images/badlands.jpg"
+    },
+    {
+      "id": 28,
+      "name": "Saguaro National Park",
+      "visitors": "908,194",
+      "location": "Arizona",
+      "description": "Named for the large saguaro cactus, symbolizing the American West.",
+      "image": "./src/assets/images/saguaro.jpg"
+    },
+    {
+      "id": 29,
+      "name": "Canyonlands National Park",
+      "visitors": "779,147",
+      "location": "Utah",
+      "description": "Offers visitors a view of the colorful landscape eroded into countless canyons, mesas, and buttes by the Colorado River.",
+      "image": "./src/assets/images/canyonlands.jpg"
+    },
+    {
+      "id": 30,
+      "name": "White Sands National Park",
+      "visitors": "705,127",
+      "location": "New Mexico",
+      "description": "Known for its dramatic landscape of rare white gypsum sand dunes.",
+      "image": "./src/assets/images/white-sands.jpg"
+    },
+    {
+      "id": 31,
+      "name": "Biscayne National Park",
+      "visitors": "701,023",
+      "location": "Florida",
+      "description": "Protects a rare combination of aquamarine waters, emerald islands, and coral reefs.",
+      "image": "./src/assets/images/biscayne.jpg"
+    },
+    {
+      "id": 32,
+      "name": "Theodore Roosevelt National Park",
+      "visitors": "668,679",
+      "location": "North Dakota",
+      "description": "Celebrates the legacy of the 26th President for his enduring contributions to the conservation of our national resources.",
+      "image": "./src/assets/images/theodore-roosevelt.jpg"
+    },
+    {
+      "id": 33,
+      "name": "Mammoth Cave National Park",
+      "visitors": "663,147",
+      "location": "Kentucky",
+      "description": "The world's longest known cave system, with more than 400 miles explored.",
+      "image": "./src/assets/images/mammoth-cave.jpg"
+    },
+    {
+      "id": 34,
+      "name": "Kings Canyon National Park",
+      "visitors": "640,986",
+      "location": "California",
+      "description": "Home to some of the deepest canyons in the United States and the giant sequoias.",
+      "image": "./src/assets/images/kings-canyon.jpg"
+    },
+    {
+      "id": 35,
+      "name": "Wind Cave National Park",
+      "visitors": "607,418",
+      "location": "South Dakota",
+      "description": "Known for its complex and intricate cave system and mixed-grass prairie on the surface.",
+      "image": "./src/assets/images/wind-cave.jpg"
+    },
+    {
+      "id": 36,
+      "name": "Glacier Bay National Park",
+      "visitors": "545,758",
+      "location": "Alaska",
+      "description": "A highlight of Alaska's Inside Passage and part of a 25-million acre World Heritage Site.",
+      "image": "./src/assets/images/glacier-bay.jpg"
+    },
+    {
+      "id": 37,
+      "name": "Crater Lake National Park",
+      "visitors": "527,259",
+      "location": "Oregon",
+      "description": "The deepest lake in the United States, known for its vivid blue color and water clarity.",
+      "image": "./src/assets/images/crater-lake.jpg"
+    },
+    {
+      "id": 38,
+      "name": "Big Bend National Park",
+      "visitors": "514,107",
+      "location": "Texas",
+      "description": "Offers a diverse environment of desert, mountains, and river that supports a variety of plants and wildlife.",
+      "image": "./src/assets/images/big-bend.jpg"
+    },
+    {
+      "id": 39,
+      "name": "Petrified Forest National Park",
+      "visitors": "505,209",
+      "location": "Arizona",
+      "description": "Known for its large deposits of petrified wood, part of a larger desert ecosystem.",
+      "image": "./src/assets/images/petrified-forest.jpg"
+    },
+    {
+      "id": 40,
+      "name": "Mesa Verde National Park",
+      "visitors": "499,790",
+      "location": "Colorado",
+      "description": "Protects some of the best-preserved Ancestral Puebloan archaeological sites in the United States.",
+      "image": "./src/assets/images/mesa-verde.jpg"
+=======
       "id": "83a7",
       "name": "Redwood National Park",
       "image": "https://hips.hearstapps.com/hmg-prod/images/shoyu-ramen-1648743360.gif?crop=1.00xw:0.669xh;0,0.145xh&resize=980:*",

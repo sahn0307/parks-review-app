@@ -9,8 +9,8 @@ function ParkCard({ name, image, description }) {
 
   return (
     <li className="park-card">
-      <img src={image} alt={name} />
       <h3>{name}</h3>
+      <img src={image} alt={name} />
       {showDetails && <p>{description}</p>}
       <button onClick={toggleDetails}>
         {showDetails ? 'Hide Details' : 'Show Details'}
