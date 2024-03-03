@@ -20,14 +20,17 @@ const filteredParks = parks.filter(park =>
 );
 
 
-  return(
-    <>
-      <NavBar />
-      <SearchBar searchQuery={searchQuery} setSearchQuery={setSearchQuery}/>
+return (
+  <div>
+    <NavBar />
+    <SearchBar setSearchQuery={setSearchQuery} />
+    {filteredParks.length > 0 ? (
       <ParksList parks={filteredParks} />
-      
-    </>
-  )
+    ) : (
+      <div>No results found.</div>
+    )}
+  </div>
+);
 }
 
 
