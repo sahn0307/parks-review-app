@@ -1,7 +1,11 @@
-import { useState } from 'react';
+import { useState, useContext  } from 'react';
+import { WishlistContext } from './WishlistContext';
 
-function ParkCard({ name, image, description }) {
+function ParkCard({ id, name, image, description }) {
   const [showDetails, setShowDetails] = useState(false);
+
+  const { addToWishlist } = useContext(WishlistContext);
+    
 
   function toggleDetails() {
     setShowDetails(prevShowDetails => !prevShowDetails);
@@ -15,7 +19,9 @@ function ParkCard({ name, image, description }) {
       <button onClick={toggleDetails}>
         {showDetails ? 'Hide Details' : 'Show Details'}
       </button>
-      <button>Add to Wishlist</button>
+      <button onClick={() => addToWishlist({name, id, image, description})}>
+        Add to Wishlist
+      </button>
     </li>
   );
 }

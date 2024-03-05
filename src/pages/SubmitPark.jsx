@@ -47,7 +47,7 @@ function SubmitPark() {
       <NavBar />
       <h1>Submit a Park!</h1>
       {submitted && <p>Form submitted successfully!</p>}
-      <form className="new-park=form" onSubmit={handleFormSubmit} > 
+      <form className="new-park-form" onSubmit={handleFormSubmit} > 
         <input
           type="text"
           name="name"
