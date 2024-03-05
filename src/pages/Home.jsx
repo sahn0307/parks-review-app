@@ -19,28 +19,18 @@ function Home() {
     )
 
 
-  //   .sort((a, b) => {
-  //     if (sortByAZ) {
-  //       return a.name.localeCompare(b.name); 
-  //     } else {
-  //       return b.name.localeCompare(a.name); 
-  //     }
-  //   });
+    .sort((a, b) => {
+      if (sortByAZ) {
+        return a.name.localeCompare(b.name); 
+      } else {
+        return b.name.localeCompare(a.name); 
+      }
+    });
 
-  // const handleSortByAZ = () => {
-  //   setSortByAZ(!sortByAZ);
+  const handleSortByAZ = () => {
+    setSortByAZ(!sortByAZ);
   };
 
-  const sortedParks = filteredParks.sort((a, b) => {
-    if (sortByAZ) {
-      return a.name.localeCompare(b.name); 
-    } else {
-      return b.name.localeCompare(a.name); 
-    }
-  });
-
-const handleSortByAZ = () => {
-  setSortByAZ(!sortByAZ);
 
   return (
     <div>
@@ -50,7 +40,7 @@ const handleSortByAZ = () => {
         {sortByAZ ? "Sort Z-A" : "Sort A-Z"}
       </button>
       {filteredParks.length > 0 ? (
-        <ParksList parks={sortedParks} />
+        <ParksList parks={filteredParks} />
       ) : (
         <div>No results found.</div>
       )}

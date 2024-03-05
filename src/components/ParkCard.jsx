@@ -3,7 +3,7 @@ import { WishlistContext } from './WishlistContext';
 import './ParkCard.css';
 import './ParksList.css';
 
-function ParkCard({ id, name, image, description, location }) {
+function ParkCard({ id, name, image, description, location, visitors}) {
   const [showDetails, setShowDetails] = useState(false);
   const [inWishlist, setInWishlist] = useState(false);
 
@@ -39,7 +39,8 @@ function ParkCard({ id, name, image, description, location }) {
       {showDetails && (
         <>
           <p>{description}</p>
-          <p><strong>Location:</strong> {location}</p> 
+          <p><strong>Location:</strong> {location}</p>
+          <p><strong>2023 Visitors:</strong> {visitors}</p> 
         </>
       )}
       <button onClick={toggleDetails}>
