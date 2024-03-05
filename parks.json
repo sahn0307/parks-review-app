@@ -120,16 +120,6 @@
       "description": "Famous for its hoodoos, odd-shaped pillars of rock left standing from the forces of erosion, Bryce Canyon offers spectacular views from sunrise to sunset.",
       "image": "./src/assets/images/bryce-canyon.jpg"
     },
-  
- 
-    {
-      "id": "15",
-      "name": "Arches National Park",
-      "visitors": "1,482,045",
-      "location": "Utah",
-      "description": "Known for its natural sandstone arches and unique geological formations, Arches National Park offers visitors a unique and breathtaking landscape.",
-      "image": "./src/assets/images/arches.jpg"
-    },
     {
       "id": "16",
       "name": "Shenandoah National Park",
@@ -289,6 +279,14 @@
       "location": "Colorado",
       "description": "Protects some of the best-preserved Ancestral Puebloan archaeological sites in the United States.",
       "image": "./src/assets/images/mesa-verde.jpg"
+    },
+    {
+      "id": "36",
+      "name": "Arches National Park",
+      "visitors": "1,482,045",
+      "location": "Utah",
+      "description": "Known for its natural sandstone arches and unique geological formations, Arches National Park offers visitors a unique and breathtaking landscape.",
+      "image": "./src/assets/images/arches.jpg"
     }
   ]
 }
