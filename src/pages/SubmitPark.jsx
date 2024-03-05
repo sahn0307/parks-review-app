@@ -1,3 +1,4 @@
+import toast from "react-hot-toast";
 import NavBar from "../components/NavBar";
 import { useState } from 'react';
 
@@ -38,7 +39,7 @@ function SubmitPark() {
         description: ""
       });
     } catch (err) {
-      console.log(err);
+      toast.error(err.message)
     }
   };
 
