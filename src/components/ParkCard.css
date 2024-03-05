@@ -1,51 +1,48 @@
 .park-card {
-    background-color: #ffffff; /* White background */
-    border: 1px solid #ddd; /* Light grey border */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    display: flex;
-    flex-direction: column;
-    overflow: hidden; /* Ensures content doesn't overflow */
-    width: 400px; /* Set a fixed width */
-    height: auto; /* Set height to auto to maintain aspect ratio */
-    justify-content: space-between; /* Distributes space between flex items */
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 400px;
+  height: auto;
+  justify-content: space-between;
 }
-  
-  .park-card img {
-    max-width: 400px;         /* Makes sure the image is never wider than the card */
-    max-height: 200px;       /* Sets a maximum height for the image */
-    object-fit: cover;       /* Ensures the image covers the area without stretching */
-    border-radius: 4px;      /* Rounds the corners of the image */
-  }
-  
-  .park-card h3 {
-    font-size: 1.25rem; /* 20px if the user default is 16px */
-    margin: 0.5rem; /* Spacing around the title */
-    color: #333; /* Dark grey color for text */
-    text-align: center;
-  }
-  
-  .park-card p {
-    font-size: 1rem; /* 16px if the user default is 16px */
-    line-height: 1.5; /* Spacing between lines */
-    color: #666; /* Medium grey color for text */
-    margin: 0 0.5rem 0.5rem; /* Spacing around the paragraph */
-  }
-  
-  .park-card button {
-    background-color: #008cba; /* A shade of blue */
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    margin: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .park-card button:hover {
-    background-color: #005f73; /* A darker shade of blue for hover effect */
-  }
-  
-  /* Add any additional styling you want for specific elements here */
-  
+
+.park-card img {
+  max-width: 400px;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.park-card h3 {
+  font-size: 1.25rem;
+  margin: 0.5rem;
+  color: #333;
+  text-align: center;
+}
+
+.park-card p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #666;
+  margin: 0 0.5rem 0.5rem;
+}
+
+.park-card button {
+  background-color: #008cba;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.park-card button:hover {
+  background-color: #005f73;
+}
