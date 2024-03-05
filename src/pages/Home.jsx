@@ -7,25 +7,30 @@ import { WishlistContext } from "../components/WishlistContext";
 
 
 function Home() {
-const [searchQuery, setSearchQuery] = useState('');
-const {parks} = useContext(WishlistContext);
-
-const filteredParks = parks.filter(park =>
-  park.name.toLowerCase().includes(searchQuery.toLowerCase())
-);
+  const [searchQuery, setSearchQuery] = useState('');
+  const { parks } = useContext(WishlistContext);
 
 
-return (
+  const filteredParks = parks
+    .filter(park =>
+      park.name.toLowerCase().includes(searchQuery.toLowerCase())
+    )
+
+
+    .sort((a, b) => a.name.localeCompare(b.name));
+
+
+  return (
     <div>
       <NavBar />
       <SearchBar setSearchQuery={setSearchQuery} />
       {filteredParks.length > 0 ? (
-      <ParksList parks={filteredParks} />
+        <ParksList parks={filteredParks} />
       ) : (
-      <div>No results found.</div>
+        <div>No results found.</div>
       )}
     </div>
-);
+  );
 }
 
 
