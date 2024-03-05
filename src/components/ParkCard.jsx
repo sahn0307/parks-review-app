@@ -3,9 +3,18 @@ import { WishlistContext } from './WishlistContext';
 
 function ParkCard({ id, name, image, description }) {
   const [showDetails, setShowDetails] = useState(false);
+  const [inWishlist, setInWishlist] = useState(false);
 
   const { addToWishlist } = useContext(WishlistContext);
-    
+
+    function toggleWishlist() {
+    setInWishlist(prevWishlist => !prevWishlist);
+  }
+
+  function handleWishlistClick() {
+    addToWishlist({name, id, image, description});
+    toggleWishlist();
+  }
 
   function toggleDetails() {
     setShowDetails(prevShowDetails => !prevShowDetails);
@@ -19,8 +28,8 @@ function ParkCard({ id, name, image, description }) {
       <button onClick={toggleDetails}>
         {showDetails ? 'Hide Details' : 'Show Details'}
       </button>
-      <button onClick={() => addToWishlist({name, id, image, description})}>
-        Add to Wishlist
+      <button onClick={handleWishlistClick}>
+        {inWishlist ? 'Remove from Wishlist' : 'Add to Wishlist'}
       </button>
     </li>
   );
