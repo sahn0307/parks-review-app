@@ -42,8 +42,6 @@ function ParkCard({ id, name, image, description, location }) {
           <p><strong>Location:</strong> {location}</p> 
         </>
       )}
-      {/* <img src={image || "https://images.pexels.com/photos/158028/bellingrath-gardens-alabama-landscape-scenic-158028.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"} alt={name} /> */}
-      {showDetails && <p>{description}</p>}
       <button onClick={toggleDetails}>
         {showDetails ? 'Hide Details' : 'Show Details'}
       </button>
