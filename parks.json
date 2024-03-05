@@ -3,7 +3,7 @@
     {
       "id": "1",
       "name": "Great Smoky Mountains National Park",
-      "visitors": "12.5 million",
+      "visitors": "13,297,647",
       "location": "Tennessee and North Carolina",
       "description": "Renowned for its diversity of plant and animal life, the beauty of its ancient mountains, and remnants of Southern Appalachian mountain culture.",
       "image": "./src/assets/images/smoky-mountain.jpg"
@@ -11,47 +11,47 @@
     {
       "id": "2",
       "name": "Grand Canyon National Park",
-      "visitors": "5.9 million",
+      "visitors": "4,733,705",
       "location": "Arizona",
       "description": "Iconic for its immense size and its intricate and colorful landscape, the park offers unparalleled vistas of the canyon's layers of red rock.",
       "image": "./src/assets/images/grand-canyon.jpg"
     },
     {
       "id": "3",
-      "name": "Rocky Mountain National Park",
-      "visitors": "4.7 million",
-      "location": "Colorado",
-      "description": "Features majestic mountain views, mountain lakes, and a variety of wildlife in diverse environments from wooded forests to mountain tundra.",
-      "image": "./src/assets/images/rocky-mountain.jpg"
-    },
-    {
-      "id": "4",
       "name": "Zion National Park",
-      "visitors": "4.5 million",
+      "visitors": "4,623,238",
       "location": "Utah",
       "description": "Known for Zion Canyon's steep red cliffs, Zion National Park also features forest trails along the Virgin River that flows to the Emerald Pools.",
       "image": "./src/assets/images/zion.jpg"
     },
     {
-      "id": "5",
-      "name": "Yosemite National Park",
-      "visitors": "4.4 million",
-      "location": "California",
-      "description": "Famous for its giant, ancient sequoias, and for Tunnel View, the iconic vista of towering Bridalveil Fall and the granite cliffs of El Capitan and Half Dome.",
-      "image": "./src/assets/images/yosemite.jpg"
-    },
-    {
-      "id": "6",
+      "id": "4",
       "name": "Yellowstone National Park",
-      "visitors": "4.2 million",
+      "visitors": "4,501,382",
       "location": "Wyoming, Montana, and Idaho",
       "description": "The first national park in the U.S. and widely held as the first in the world, known for its wildlife and its many geothermal features, especially Old Faithful geyser.",
       "image": "./src/assets/images/yellowstone.jpg"
     },
     {
+      "id": "5",
+      "name": "Rocky Mountain National Park",
+      "visitors": "4,115,837",
+      "location": "Colorado",
+      "description": "Features majestic mountain views, mountain lakes, and a variety of wildlife in diverse environments from wooded forests to mountain tundra.",
+      "image": "./src/assets/images/rocky-mountain.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Yosemite National Park",
+      "visitors": "3,897,070",
+      "location": "California",
+      "description": "Famous for its giant, ancient sequoias, and for Tunnel View, the iconic vista of towering Bridalveil Fall and the granite cliffs of El Capitan and Half Dome.",
+      "image": "./src/assets/images/yosemite.jpg"
+    },
+    {
       "id": "7",
       "name": "Acadia National Park",
-      "visitors": "3.5 million",
+      "visitors": "3,879,890",
       "location": "Maine",
       "description": "Home to the rugged coastline of Maine, woodland, rocky beaches and glacier-scoured granite peaks such as Cadillac Mountain, the highest point on the United States' East Coast.",
       "image": "./src/assets/images/acadia.jpg"
@@ -59,63 +59,73 @@
     {
       "id": "8",
       "name": "Grand Teton National Park",
-      "visitors": "3.3 million",
+      "visitors": "3,417,106",
       "location": "Wyoming",
       "description": "Known for its stunning mountain landscapes, alpine lakes, and abundant wildlife, including the towering Grand Teton.",
       "image": "./src/assets/images/grand-teton.jpg"
     },
     {
       "id": "9",
-      "name": "Olympic National Park",
-      "visitors": "3.2 million",
-      "location": "Washington",
-      "description": "Encompasses diverse ecosystems from the Pacific coastline to rainforests and glacier-capped mountains.",
-      "image": "./src/assets/images/olympic.jpg"
-    },
-    {
-      "id": "10",
-      "name": "Glacier National Park",
-      "visitors": "3 million",
-      "location": "Montana",
-      "description": "Named for its prominent glacier-carved terrain and remnant glaciers descended from the ice ages, it's home to diverse wildlife and many lakes.",
-      "image": "./src/assets/images/glacier.png"
-    },
-    {
-      "id": "11",
       "name": "Joshua Tree National Park",
-      "visitors": "2.9 million",
+      "visitors": "3,270,404",
       "location": "California",
       "description": "Characterized by rugged rock formations and stark desert landscapes. Named for the region's bristled Joshua trees, the park straddles the cactus-dotted Colorado Desert and the Mojave Desert.",
       "image": "./src/assets/images/joshua-tree.jpg"
     },
     {
-      "id": "12",
-      "name": "Bryce Canyon National Park",
-      "visitors": "2.6 million",
-      "location": "Utah",
-      "description": "Famous for its hoodoos, odd-shaped pillars of rock left standing from the forces of erosion, Bryce Canyon offers spectacular views from sunrise to sunset.",
-      "image": "./src/assets/images/bryce-canyon.jpg"
+      "id": "10",
+      "name": "Olympic National Park",
+      "visitors": "2,947,503",
+      "location": "Washington",
+      "description": "Encompasses diverse ecosystems from the Pacific coastline to rainforests and glacier-capped mountains.",
+      "image": "./src/assets/images/olympic.jpg"
     },
     {
-      "id": "13",
+      "id": "11",
+      "name": "Glacier National Park",
+      "visitors": "2,933,616",
+      "location": "Montana",
+      "description": "Named for its prominent glacier-carved terrain and remnant glaciers descended from the ice ages, it's home to diverse wildlife and many lakes.",
+      "image": "./src/assets/images/glacier.png"
+    },
+    {
+      "id": "12",
       "name": "Cuyahoga Valley National Park",
-      "visitors": "2.5 million",
+      "visitors": "2,860,059",
       "location": "Ohio",
       "description": "Preserves and reclaims the rural landscape along the Cuyahoga River between Akron and Cleveland. Known for its waterfalls, rolling hills, and trails.",
       "image": "./src/assets/images/cuyahoga-valley.jpg"
     },
     {
-      "id": "14",
+      "id": "13",
       "name": "Indiana Dunes National Park",
-      "visitors": "2.3 million",
+      "visitors": "2,765,892",
       "location": "Indiana",
       "description": "Features over 15 miles of Lake Michigan shoreline and 15,000 acres of beaches, dunes, marshes, swamps, and prairies.",
       "image": "./src/assets/images/indiana-dunes.jpg"
     },
     {
+      "id": "14",
+      "name": "Hot Springs National Park",
+      "visitors": "2,502,967",
+      "location": "Arizona",
+      "description": "Hot Springs National Park, located in central Arkansas, is renowned for its historic bathhouses and thermal springs, which have been a source of healing and relaxation for centuries.",
+      "image": "./src/assets/images/bryce-canyon.jpg"
+    },
+    {
+      "id": "15",
+      "name": "Bryce Canyon National Park",
+      "visitors": "2,461,269",
+      "location": "Utah",
+      "description": "Famous for its hoodoos, odd-shaped pillars of rock left standing from the forces of erosion, Bryce Canyon offers spectacular views from sunrise to sunset.",
+      "image": "./src/assets/images/bryce-canyon.jpg"
+    },
+  
+ 
+    {
       "id": "15",
       "name": "Arches National Park",
-      "visitors": "1.7 million",
+      "visitors": "1,482,045",
       "location": "Utah",
       "description": "Known for its natural sandstone arches and unique geological formations, Arches National Park offers visitors a unique and breathtaking landscape.",
       "image": "./src/assets/images/arches.jpg"
@@ -123,7 +133,7 @@
     {
       "id": "16",
       "name": "Shenandoah National Park",
-      "visitors": "1.6 million",
+      "visitors": "1,576,008",
       "location": "Virginia",
       "description": "Shenandoah National Park is known for its spectacular vistas along the Skyline Drive, rolling hills, waterfalls, and forests.",
       "image": "./src/assets/images/shenandoah.jpg"
@@ -131,7 +141,7 @@
     {
       "id": "17",
       "name": "Haleakalā National Park",
-      "visitors": "1.5 million",
+      "visitors": "791,292",
       "location": "Hawaii",
       "description": "Covers the dormant Haleakalā Volcano and surrounding landscapes. Known for its stunning sunrises, diverse ecosystems, and unique geological features.",
       "image": "./src/assets/images/haleakala.jpg"
@@ -139,7 +149,7 @@
     {
       "id": "18",
       "name": "Capitol Reef National Park",
-      "visitors": "1.2 million",
+      "visitors": "1,268,861",
       "location": "Utah",
       "description": "Named for the white domes and Navajo Sandstone cliffs that resemble the U.S. Capitol building, Capitol Reef is known for its colorful canyons, ridges, buttes, and monoliths.",
       "image": "./src/assets/images/capitol-reef.jpg"
@@ -147,7 +157,7 @@
     {
       "id": "19",
       "name": "Badlands National Park",
-      "visitors": "1.1 million",
+      "visitors": "1,046,400",
       "location": "South Dakota",
       "description": "Features striking geologic deposits that contain one of the world's richest fossil beds. Ancient mammals such as the rhino, horse, and saber-toothed cat once roamed here.",
       "image": "./src/assets/images/badlands.jpg"
@@ -155,165 +165,125 @@
     {
       "id": "20",
       "name": "Everglades National Park",
-      "visitors": "1 million",
+      "visitors": "810,189",
       "location": "Florida",
       "description": "The largest tropical wilderness of any kind in the U.S., known for its vast and varied ecosystems, including mangrove forests, sawgrass marshes, and pine flatwoods.",
       "image": "./src/assets/images/everglades.jpg"
     },
     {
       "id": "21",
-      "name": "Shenandoah National Park",
-      "visitors": "1.4 million",
-      "location": "Virginia",
-      "description": "Known for its Skyline Drive and over 200,000 acres of protected lands that are haven to deer, songbirds, and black bear.",
-      "image": "./src/assets/images/shenandoah.jpg"
-    },
-    {
-      "id": "22",
-      "name": "Capitol Reef National Park",
-      "visitors": "1.2 million",
-      "location": "Utah",
-      "description": "Features the unique Waterpocket Fold, a nearly 100-mile long warp in the Earth's crust.",
-      "image": "./src/assets/images/capitol-reef.jpg"
-    },
-    {
-      "id": "23",
-      "name": "Everglades National Park",
-      "visitors": "1.2 million",
-      "location": "Florida",
-      "description": "The largest tropical wilderness of any kind in the U.S., known for its vast and varied ecosystems.",
-      "image": "./src/assets/images/everglades.jpg"
-    },
-    {
-      "id": "24",
       "name": "Sequoia National Park",
-      "visitors": "1.2 million",
+      "visitors": "980,567",
       "location": "California",
       "description": "Famous for its giant sequoia trees, including the General Sherman Tree, the largest tree on Earth.",
       "image": "./src/assets/images/sequoia.jpg"
     },
     {
-      "id": "25",
+      "id": "22",
       "name": "Death Valley National Park",
-      "visitors": "1.1 million",
+      "visitors": "1,099,632",
       "location": "California and Nevada",
       "description": "Holds the record for the hottest place on earth, offering desolate and yet strikingly beautiful desert landscapes.",
       "image": "./src/assets/images/death-valley.jpg"
     },
     {
-      "id": "26",
-      "name": "Haleakalā National Park",
-      "visitors": "1.1 million",
-      "location": "Hawaii",
-      "description": "Covers the dormant Haleakalā Volcano, offering views of sunrise and sunset above the clouds.",
-      "image": "./src/assets/images/haleakala.jpg"
-    },
-    {
-      "id": "27",
-      "name": "Badlands National Park",
-      "visitors": "1 million",
-      "location": "South Dakota",
-      "description": "Features striking geologic deposits and one of the world’s richest fossil beds.",
-      "image": "./src/assets/images/badlands.jpg"
-    },
-    {
-      "id": "28",
+      "id": "23",
       "name": "Saguaro National Park",
-      "visitors": "908,194",
+      "visitors": "1,010,906",
       "location": "Arizona",
       "description": "Named for the large saguaro cactus, symbolizing the American West.",
       "image": "./src/assets/images/saguaro.jpg"
     },
     {
-      "id": "29",
+      "id": "24",
       "name": "Canyonlands National Park",
-      "visitors": "779,147",
+      "visitors": "800,322",
       "location": "Utah",
       "description": "Offers visitors a view of the colorful landscape eroded into countless canyons, mesas, and buttes by the Colorado River.",
       "image": "./src/assets/images/canyonlands.jpg"
     },
     {
-      "id": "30",
+      "id": "25",
       "name": "White Sands National Park",
-      "visitors": "705,127",
+      "visitors": "729,096",
       "location": "New Mexico",
       "description": "Known for its dramatic landscape of rare white gypsum sand dunes.",
       "image": "./src/assets/images/white-sands.jpg"
     },
     {
-      "id": "31",
+      "id": "26",
       "name": "Biscayne National Park",
-      "visitors": "701,023",
+      "visitors": "571,242",
       "location": "Florida",
       "description": "Protects a rare combination of aquamarine waters, emerald islands, and coral reefs.",
       "image": "./src/assets/images/biscayne.jpg"
     },
     {
-      "id": "32",
+      "id": "27",
       "name": "Theodore Roosevelt National Park",
-      "visitors": "668,679",
+      "visitors": "746,862",
       "location": "North Dakota",
       "description": "Celebrates the legacy of the 26th President for his enduring contributions to the conservation of our national resources.",
       "image": "./src/assets/images/theodore-roosevelt.jpg"
     },
     {
-      "id": "33",
+      "id": "28",
       "name": "Mammoth Cave National Park",
-      "visitors": "663,147",
+      "visitors": "654,450",
       "location": "Kentucky",
       "description": "The world's longest known cave system, with more than 400 miles explored.",
       "image": "./src/assets/images/mammoth-cave.jpg"
     },
     {
-      "id": "34",
+      "id": "29",
       "name": "Kings Canyon National Park",
-      "visitors": "640,986",
+      "visitors": "643,065",
       "location": "California",
       "description": "Home to some of the deepest canyons in the United States and the giant sequoias.",
       "image": "./src/assets/images/kings-canyon.jpg"
     },
     {
-      "id": "35",
+      "id": "30",
       "name": "Wind Cave National Park",
-      "visitors": "607,418",
+      "visitors": "592,459",
       "location": "South Dakota",
       "description": "Known for its complex and intricate cave system and mixed-grass prairie on the surface.",
       "image": "./src/assets/images/wind-cave.jpg"
     },
     {
-      "id": "36",
+      "id": "31",
       "name": "Glacier Bay National Park",
-      "visitors": "545,758",
+      "visitors": "703,659",
       "location": "Alaska",
       "description": "A highlight of Alaska's Inside Passage and part of a 25-million acre World Heritage Site.",
       "image": "./src/assets/images/glacier-bay.jpg"
     },
     {
-      "id": "37",
+      "id": "32",
       "name": "Crater Lake National Park",
-      "visitors": "527,259",
+      "visitors": "559,976",
       "location": "Oregon",
       "description": "The deepest lake in the United States, known for its vivid blue color and water clarity.",
       "image": "./src/assets/images/crater-lake.jpg"
     },
     {
-      "id": "38",
+      "id": "33",
       "name": "Big Bend National Park",
-      "visitors": "514,107",
+      "visitors": "509,129",
       "location": "Texas",
       "description": "Offers a diverse environment of desert, mountains, and river that supports a variety of plants and wildlife.",
       "image": "./src/assets/images/big-bend.jpg"
     },
     {
-      "id": "39",
+      "id": "34",
       "name": "Petrified Forest National Park",
-      "visitors": "505,209",
+      "visitors": "520,491",
       "location": "Arizona",
       "description": "Known for its large deposits of petrified wood, part of a larger desert ecosystem.",
       "image": "./src/assets/images/petrified-forest.jpg"
     },
     {
-      "id": "40",
+      "id": "35",
       "name": "Mesa Verde National Park",
       "visitors": "499,790",
       "location": "Colorado",
