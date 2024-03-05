@@ -1,20 +1,25 @@
-import { useState, useContext  } from 'react';
+import { useState, useContext, useEffect } from 'react';
 import { WishlistContext } from './WishlistContext';
 
 function ParkCard({ id, name, image, description }) {
   const [showDetails, setShowDetails] = useState(false);
   const [inWishlist, setInWishlist] = useState(false);
 
-  const { addToWishlist } = useContext(WishlistContext);
-  const { removeFromWishlist } = useContext(WishlistContext);
+  const { addToWishlist, removeFromWishlist, wishlist } = useContext(WishlistContext);
 
-    function toggleWishlist() {
+  function toggleWishlist() {
     setInWishlist(prevWishlist => !prevWishlist);
+    console.log(inWishlist);
   }
+
+  useEffect(() => {
+    const isInWishlist = wishlist.some(item => item.id === id);
+    setInWishlist(isInWishlist);
+  }, [wishlist, id]);
 
   function handleWishlistClick() {
     if(inWishlist) {
-      removeFromWishlist({name, id, image, description});
+      removeFromWishlist(id);
     } else {
       addToWishlist({name, id, image, description})
     }

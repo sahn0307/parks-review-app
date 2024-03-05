@@ -14,7 +14,7 @@ const WishlistProvider = ({ children }) => {
   }, []);
 
   const addToWishlist = (park) => {
-    setWishlist([...wishlist, park]);
+    setWishlist([park, ...wishlist]);
   };
 
   const removeFromWishlist = (parkId) => {
