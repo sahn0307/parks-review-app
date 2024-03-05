@@ -6,13 +6,18 @@ function ParkCard({ id, name, image, description }) {
   const [inWishlist, setInWishlist] = useState(false);
 
   const { addToWishlist } = useContext(WishlistContext);
+  const { removeFromWishlist } = useContext(WishlistContext);
 
     function toggleWishlist() {
     setInWishlist(prevWishlist => !prevWishlist);
   }
 
   function handleWishlistClick() {
-    addToWishlist({name, id, image, description});
+    if(inWishlist) {
+      removeFromWishlist({name, id, image, description});
+    } else {
+      addToWishlist({name, id, image, description})
+    }
     toggleWishlist();
   }
 
