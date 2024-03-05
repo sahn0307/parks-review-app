@@ -1,7 +1,30 @@
-import { useState } from 'react';
+import { useState, useContext, useEffect } from 'react';
+import { WishlistContext } from './WishlistContext';
 
-function ParkCard({ name, image, description }) {
+function ParkCard({ id, name, image, description }) {
   const [showDetails, setShowDetails] = useState(false);
+  const [inWishlist, setInWishlist] = useState(false);
+
+  const { addToWishlist, removeFromWishlist, wishlist } = useContext(WishlistContext);
+
+  function toggleWishlist() {
+    setInWishlist(prevWishlist => !prevWishlist);
+    console.log(inWishlist);
+  }
+
+  useEffect(() => {
+    const isInWishlist = wishlist.some(item => item.id === id);
+    setInWishlist(isInWishlist);
+  }, [wishlist, id]);
+
+  function handleWishlistClick() {
+    if(inWishlist) {
+      removeFromWishlist(id);
+    } else {
+      addToWishlist({name, id, image, description})
+    }
+    toggleWishlist();
+  }
 
   function toggleDetails() {
     setShowDetails(prevShowDetails => !prevShowDetails);
@@ -15,7 +38,9 @@ function ParkCard({ name, image, description }) {
       <button onClick={toggleDetails}>
         {showDetails ? 'Hide Details' : 'Show Details'}
       </button>
-      <button>Add to Wishlist</button>
+      <button onClick={handleWishlistClick}>
+        {inWishlist ? 'Remove from Wishlist' : 'Add to Wishlist'}
+      </button>
     </li>
   );
 }

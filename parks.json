@@ -1,7 +1,7 @@
 {
   "nationalParks": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Great Smoky Mountains National Park",
       "visitors": "12.5 million",
       "location": "Tennessee and North Carolina",
@@ -9,7 +9,7 @@
       "image": "./src/assets/images/smoky-mountain.jpg"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Grand Canyon National Park",
       "visitors": "5.9 million",
       "location": "Arizona",
@@ -17,7 +17,7 @@
       "image": "./src/assets/images/grand-canyon.jpg"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Rocky Mountain National Park",
       "visitors": "4.7 million",
       "location": "Colorado",
@@ -25,7 +25,7 @@
       "image": "./src/assets/images/rocky-mountain.jpg"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Zion National Park",
       "visitors": "4.5 million",
       "location": "Utah",
@@ -33,7 +33,7 @@
       "image": "./src/assets/images/zion.jpg"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Yosemite National Park",
       "visitors": "4.4 million",
       "location": "California",
@@ -41,7 +41,7 @@
       "image": "./src/assets/images/yosemite.jpg"
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Yellowstone National Park",
       "visitors": "4.2 million",
       "location": "Wyoming, Montana, and Idaho",
@@ -49,7 +49,7 @@
       "image": "./src/assets/images/yellowstone.jpg"
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Acadia National Park",
       "visitors": "3.5 million",
       "location": "Maine",
@@ -57,7 +57,7 @@
       "image": "./src/assets/images/acadia.jpg"
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Grand Teton National Park",
       "visitors": "3.3 million",
       "location": "Wyoming",
@@ -65,7 +65,7 @@
       "image": "./src/assets/images/grand-teton.jpg"
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "Olympic National Park",
       "visitors": "3.2 million",
       "location": "Washington",
@@ -73,7 +73,7 @@
       "image": "./src/assets/images/olympic.jpg"
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "Glacier National Park",
       "visitors": "3 million",
       "location": "Montana",
@@ -81,7 +81,7 @@
       "image": "./src/assets/images/glacier.png"
     },
     {
-      "id": 11,
+      "id": "11",
       "name": "Joshua Tree National Park",
       "visitors": "2.9 million",
       "location": "California",
@@ -89,7 +89,7 @@
       "image": "./src/assets/images/joshua-tree.jpg"
     },
     {
-      "id": 12,
+      "id": "12",
       "name": "Bryce Canyon National Park",
       "visitors": "2.6 million",
       "location": "Utah",
@@ -97,7 +97,7 @@
       "image": "./src/assets/images/bryce-canyon.jpg"
     },
     {
-      "id": 13,
+      "id": "13",
       "name": "Cuyahoga Valley National Park",
       "visitors": "2.5 million",
       "location": "Ohio",
@@ -105,7 +105,7 @@
       "image": "./src/assets/images/cuyahoga-valley.jpg"
     },
     {
-      "id": 14,
+      "id": "14",
       "name": "Indiana Dunes National Park",
       "visitors": "2.3 million",
       "location": "Indiana",
@@ -113,7 +113,7 @@
       "image": "./src/assets/images/indiana-dunes.jpg"
     },
     {
-      "id": 15,
+      "id": "15",
       "name": "Arches National Park",
       "visitors": "1.7 million",
       "location": "Utah",
@@ -121,7 +121,7 @@
       "image": "./src/assets/images/arches.jpg"
     },
     {
-      "id": 16,
+      "id": "16",
       "name": "Shenandoah National Park",
       "visitors": "1.6 million",
       "location": "Virginia",
@@ -129,7 +129,7 @@
       "image": "./src/assets/images/shenandoah.jpg"
     },
     {
-      "id": 17,
+      "id": "17",
       "name": "Haleakalā National Park",
       "visitors": "1.5 million",
       "location": "Hawaii",
@@ -137,7 +137,7 @@
       "image": "./src/assets/images/haleakala.jpg"
     },
     {
-      "id": 18,
+      "id": "18",
       "name": "Capitol Reef National Park",
       "visitors": "1.2 million",
       "location": "Utah",
@@ -145,7 +145,7 @@
       "image": "./src/assets/images/capitol-reef.jpg"
     },
     {
-      "id": 19,
+      "id": "19",
       "name": "Badlands National Park",
       "visitors": "1.1 million",
       "location": "South Dakota",
@@ -153,7 +153,7 @@
       "image": "./src/assets/images/badlands.jpg"
     },
     {
-      "id": 20,
+      "id": "20",
       "name": "Everglades National Park",
       "visitors": "1 million",
       "location": "Florida",
@@ -161,7 +161,7 @@
       "image": "./src/assets/images/everglades.jpg"
     },
     {
-      "id": 21,
+      "id": "21",
       "name": "Shenandoah National Park",
       "visitors": "1.4 million",
       "location": "Virginia",
@@ -169,7 +169,7 @@
       "image": "./src/assets/images/shenandoah.jpg"
     },
     {
-      "id": 22,
+      "id": "22",
       "name": "Capitol Reef National Park",
       "visitors": "1.2 million",
       "location": "Utah",
@@ -177,7 +177,7 @@
       "image": "./src/assets/images/capitol-reef.jpg"
     },
     {
-      "id": 23,
+      "id": "23",
       "name": "Everglades National Park",
       "visitors": "1.2 million",
       "location": "Florida",
@@ -185,7 +185,7 @@
       "image": "./src/assets/images/everglades.jpg"
     },
     {
-      "id": 24,
+      "id": "24",
       "name": "Sequoia National Park",
       "visitors": "1.2 million",
       "location": "California",
@@ -193,7 +193,7 @@
       "image": "./src/assets/images/sequoia.jpg"
     },
     {
-      "id": 25,
+      "id": "25",
       "name": "Death Valley National Park",
       "visitors": "1.1 million",
       "location": "California and Nevada",
@@ -201,7 +201,7 @@
       "image": "./src/assets/images/death-valley.jpg"
     },
     {
-      "id": 26,
+      "id": "26",
       "name": "Haleakalā National Park",
       "visitors": "1.1 million",
       "location": "Hawaii",
@@ -209,7 +209,7 @@
       "image": "./src/assets/images/haleakala.jpg"
     },
     {
-      "id": 27,
+      "id": "27",
       "name": "Badlands National Park",
       "visitors": "1 million",
       "location": "South Dakota",
@@ -217,7 +217,7 @@
       "image": "./src/assets/images/badlands.jpg"
     },
     {
-      "id": 28,
+      "id": "28",
       "name": "Saguaro National Park",
       "visitors": "908,194",
       "location": "Arizona",
@@ -225,7 +225,7 @@
       "image": "./src/assets/images/saguaro.jpg"
     },
     {
-      "id": 29,
+      "id": "29",
       "name": "Canyonlands National Park",
       "visitors": "779,147",
       "location": "Utah",
@@ -233,7 +233,7 @@
       "image": "./src/assets/images/canyonlands.jpg"
     },
     {
-      "id": 30,
+      "id": "30",
       "name": "White Sands National Park",
       "visitors": "705,127",
       "location": "New Mexico",
@@ -241,7 +241,7 @@
       "image": "./src/assets/images/white-sands.jpg"
     },
     {
-      "id": 31,
+      "id": "31",
       "name": "Biscayne National Park",
       "visitors": "701,023",
       "location": "Florida",
@@ -249,7 +249,7 @@
       "image": "./src/assets/images/biscayne.jpg"
     },
     {
-      "id": 32,
+      "id": "32",
       "name": "Theodore Roosevelt National Park",
       "visitors": "668,679",
       "location": "North Dakota",
@@ -257,7 +257,7 @@
       "image": "./src/assets/images/theodore-roosevelt.jpg"
     },
     {
-      "id": 33,
+      "id": "33",
       "name": "Mammoth Cave National Park",
       "visitors": "663,147",
       "location": "Kentucky",
@@ -265,7 +265,7 @@
       "image": "./src/assets/images/mammoth-cave.jpg"
     },
     {
-      "id": 34,
+      "id": "34",
       "name": "Kings Canyon National Park",
       "visitors": "640,986",
       "location": "California",
@@ -273,7 +273,7 @@
       "image": "./src/assets/images/kings-canyon.jpg"
     },
     {
-      "id": 35,
+      "id": "35",
       "name": "Wind Cave National Park",
       "visitors": "607,418",
       "location": "South Dakota",
@@ -281,7 +281,7 @@
       "image": "./src/assets/images/wind-cave.jpg"
     },
     {
-      "id": 36,
+      "id": "36",
       "name": "Glacier Bay National Park",
       "visitors": "545,758",
       "location": "Alaska",
@@ -289,7 +289,7 @@
       "image": "./src/assets/images/glacier-bay.jpg"
     },
     {
-      "id": 37,
+      "id": "37",
       "name": "Crater Lake National Park",
       "visitors": "527,259",
       "location": "Oregon",
@@ -297,7 +297,7 @@
       "image": "./src/assets/images/crater-lake.jpg"
     },
     {
-      "id": 38,
+      "id": "38",
       "name": "Big Bend National Park",
       "visitors": "514,107",
       "location": "Texas",
@@ -305,7 +305,7 @@
       "image": "./src/assets/images/big-bend.jpg"
     },
     {
-      "id": 39,
+      "id": "39",
       "name": "Petrified Forest National Park",
       "visitors": "505,209",
       "location": "Arizona",
@@ -313,18 +313,12 @@
       "image": "./src/assets/images/petrified-forest.jpg"
     },
     {
-      "id": 40,
+      "id": "40",
       "name": "Mesa Verde National Park",
       "visitors": "499,790",
       "location": "Colorado",
       "description": "Protects some of the best-preserved Ancestral Puebloan archaeological sites in the United States.",
       "image": "./src/assets/images/mesa-verde.jpg"
-=======
-      "id": "83a7",
-      "name": "Redwood National Park",
-      "image": "https://hips.hearstapps.com/hmg-prod/images/shoyu-ramen-1648743360.gif?crop=1.00xw:0.669xh;0,0.145xh&resize=980:*",
-      "location": "California",
-      "description": "big trees & lots of em"
     }
   ]
 }

@@ -8,7 +8,7 @@ function SubmitPark() {
     location: "",
     description: ""
   });
-  
+  const [submitted, setSubmitted] = useState(false);
   const handleFormInputChange = (e) => {
     setFormData({...formData, [e.target.name]: e.target.value });
   };
@@ -24,9 +24,13 @@ function SubmitPark() {
         },
         body: JSON.stringify(formData),
       });
+      
+      if (!resp.ok) {
+        throw new Error("Failed to submit form");
+      }
 
       const data = await resp.json();
-      onsubmit(data);
+      setSubmitted(true);
       setFormData({
         name: "",
         image: "",
@@ -42,7 +46,8 @@ function SubmitPark() {
     <>
       <NavBar />
       <h1>Submit a Park!</h1>
-      <form className="new-park=form" onSubmit={handleFormSubmit} > 
+      {submitted && <p>Form submitted successfully!</p>}
+      <form className="new-park-form" onSubmit={handleFormSubmit} > 
         <input
           type="text"
           name="name"
