@@ -51,7 +51,7 @@ Submit a Park: Navigate to the Submit a Park page using the navigation bar. Fill
 ## Acknowledgments 
 - Sung-Jin Ahn - contact: https://www.linkedin.com/in/sung-jin-ahn/
 - Gabriella Richmond - contact: https://www.linkedin.com/in/gabriella-richmond/
-- Kia Neitzell - contact: https://www.linkedin.com/in/kia-neitzell-870559162/
+- (Kia Neitzell)[https://www.linkedin.com/in/kia-neitzell-870559162/]
 
 ## License
 This project is licensed under the MIT License.
