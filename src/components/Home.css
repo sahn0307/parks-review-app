@@ -2,11 +2,11 @@
   position: relative;
 }
 
-.search-container {
+/* .search-container {
   position: absolute;
   top: 0;
   right: 0;
-}
+} */
 
 .parks-list-container {
   margin-top: 50px;
@@ -23,8 +23,8 @@
   top: 10;
   right: 0;
   margin-top: 0;
-  border: 2px solid black;
-  border-radius: 5px;
+  /* border: 2px solid black;
+  border-radius: 5px; */
 }
 
 .sort-button:hover {
@@ -32,5 +32,7 @@
 }
 
 .search-sort-container {
-  
+  position: absolute;
+  top: 0;
+  right: 0;
 }

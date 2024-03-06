@@ -47,13 +47,13 @@ function Home() {
           </button>
         </div>
       </div>
-      {filteredParks.length > 0 ? (
-        <div className="parks-list-container">
+      <div className="parks-list-container">
+        {filteredParks.length > 0 ? (
           <ParksList parks={filteredParks} />
-        </div>
-      ) : (
-        <div>No results found.</div>
-      )}
+        ) : (
+          <div>No results found.</div>
+        )}
+      </div>
     </div>
   );
 }
