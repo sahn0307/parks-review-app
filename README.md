@@ -49,9 +49,9 @@ Submit a Park: Navigate to the Submit a Park page using the navigation bar. Fill
 - React Router DOM: 6.22.2
 
 ## Acknowledgments 
-- Sung-Jin Ahn - [LinkedIn](https://www.linkedin.com/in/sung-jin-ahn/) - [GitHub](https://github.com/sahn0307/)
-- Gabriella Richmond - [LinkedIn](https://www.linkedin.com/in/gabriella-richmond/) - [GitHub](https://github.com/gabriellarichmo)
-- Kia Neitzell - [LinkedIn](https://www.linkedin.com/in/kia-neitzell-870559162/) - [GitHub](https://github.com/kia659)
+- Sung-Jin Ahn | [LinkedIn](https://www.linkedin.com/in/sung-jin-ahn/) | [GitHub](https://github.com/sahn0307/)
+- Gabriella Richmond | [LinkedIn](https://www.linkedin.com/in/gabriella-richmond/) | [GitHub](https://github.com/gabriellarichmo)
+- Kia Neitzell | [LinkedIn](https://www.linkedin.com/in/kia-neitzell-870559162/) | [GitHub](https://github.com/kia659)
 
 ## License
 This project is licensed under the MIT License.
