@@ -9,6 +9,8 @@
   width: 400px;
   height: auto;
   justify-content: space-between;
+  padding: 5px;
+  margin-top: 20px;
 }
 
 .park-card img {

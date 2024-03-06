@@ -1,8 +1,9 @@
-import { useState, useEffect, useContext } from "react";
+import { useState, useContext } from "react";
 import NavBar from "../components/NavBar";
 import ParksList from "../components/ParksList";
 import SearchBar from "../components/SearchBar";
 import { WishlistContext } from "../components/WishlistContext";
+import "../components/Home.css";
 
 
 
@@ -36,15 +37,23 @@ function Home() {
   return (
     <div>
       <NavBar />
-      <SearchBar setSearchQuery={setSearchQuery} />
-      <button onClick={handleSortByAZ}>
-        {sortByAZ ? "Sort by Popularity" : "Sort A-Z"}
-      </button>
-      {filteredParks.length > 0 ? (
-        <ParksList parks={filteredParks} />
-      ) : (
-        <div>No results found.</div>
-      )}
+      <div className="search-sort-container">
+        <div className="search-container">
+          <SearchBar setSearchQuery={setSearchQuery} />
+        </div>
+        <div className="sort-container">
+          <button className="sort-button" onClick={handleSortByAZ}>
+            {sortByAZ ? "Sort by Popularity" : "Sort A-Z"}
+          </button>
+        </div>
+      </div>
+      <div className="parks-list-container">
+        {filteredParks.length > 0 ? (
+          <ParksList parks={filteredParks} />
+        ) : (
+          <div>No results found.</div>
+        )}
+      </div>
     </div>
   );
 }

@@ -1,0 +1,41 @@
+.submit-container {
+  margin: 0 auto;
+}
+
+.new-park-form {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.new-park-form input,
+.new-park-form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.new-park-form input[type="text"],
+.new-park-form button {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.new-park-form input[type="text"]:focus {
+  border-color: #4CAF50;
+}
+
+.new-park-form button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.new-park-form button:hover {
+  background-color: #45a049;
+}
+

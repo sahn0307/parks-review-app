@@ -16,12 +16,12 @@ const WishlistProvider = ({ children }) => {
 
     const addToWishlist = (park) => {
         setWishlist([park, ...wishlist]);
-        toast.success('successfully saved')
+        toast.success('Added to Wishlist')
     };
 
     const removeFromWishlist = (parkId) => {
         setWishlist(wishlist.filter(park => park.id !== parkId));
-        toast.success('successfully removed')
+        toast.success('Removed from Wishlist')
     };
 
     return (
