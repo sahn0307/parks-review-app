@@ -23,7 +23,7 @@ function ParkCard({ id, name, image, description, location, visitors}) {
     if(inWishlist) {
       removeFromWishlist(id);
     } else {
-      addToWishlist({name, id, image, description})
+      addToWishlist({name, id, image, description, location, visitors})
     }
     toggleWishlist();
   }
