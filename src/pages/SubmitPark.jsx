@@ -1,9 +1,12 @@
+import { useState, useContext } from 'react';
+import { WishlistContext } from '../components/WishlistContext';
 import toast from "react-hot-toast";
 import NavBar from "../components/NavBar";
-import { useState } from 'react';
 import "../components/SubmitPark.css"
 
+
 function SubmitPark() {
+  const { setParks } = useContext(WishlistContext);
   const [formData, setFormData] = useState({
     name: "",
     image: "",
@@ -11,6 +14,7 @@ function SubmitPark() {
     description: ""
   });
   const [submitted, setSubmitted] = useState(false);
+  
   const handleFormInputChange = (e) => {
     setFormData({...formData, [e.target.name]: e.target.value });
   };
@@ -39,6 +43,7 @@ function SubmitPark() {
         location: "",
         description: ""
       });
+      setParks(prevParks => [...prevParks, data]);
     } catch (err) {
       toast.error(err.message)
     }
