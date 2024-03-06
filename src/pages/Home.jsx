@@ -35,26 +35,32 @@ function Home() {
 
 
   return (
-    <div>
+    <>
+      
+      <div className="nav-bar-container">
+      <h1 className="banner">Park Pal</h1>
       <NavBar />
+      </div>
       <div className="search-sort-container">
-        <div className="search-container">
-          <SearchBar setSearchQuery={setSearchQuery} />
+          <div className="search-container">
+            <SearchBar setSearchQuery={setSearchQuery} />
+          </div>
+            <button className="sort-button" onClick={handleSortByAZ}>
+              {sortByAZ ? "Sort by Popularity" : "Sort A-Z"}
+            </button>
         </div>
-        <div className="sort-container">
-          <button className="sort-button" onClick={handleSortByAZ}>
-            {sortByAZ ? "Sort by Popularity" : "Sort A-Z"}
-          </button>
+      <div className="home-container">
+        
+        
+        <div className="parks-list-container">
+          {filteredParks.length > 0 ? (
+            <ParksList parks={filteredParks} />
+          ) : (
+            <div>No results found.</div>
+          )}
         </div>
       </div>
-      <div className="parks-list-container">
-        {filteredParks.length > 0 ? (
-          <ParksList parks={filteredParks} />
-        ) : (
-          <div>No results found.</div>
-        )}
-      </div>
-    </div>
+    </>
   );
 }
 

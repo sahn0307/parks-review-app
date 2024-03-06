@@ -1,5 +1,7 @@
+
 .submit-container {
   margin: 0 auto;
+  border: solid 2px;
 }
 
 .new-park-form {
