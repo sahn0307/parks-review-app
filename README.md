@@ -49,9 +49,9 @@ Submit a Park: Navigate to the Submit a Park page using the navigation bar. Fill
 - React Router DOM: 6.22.2
 
 ## Acknowledgments 
-- Sung-Jin Ahn - contact: https://www.linkedin.com/in/sung-jin-ahn/
-- Gabriella Richmond - contact: https://www.linkedin.com/in/gabriella-richmond/
-- (Kia Neitzell)[https://www.linkedin.com/in/kia-neitzell-870559162/]
+- [Sung-Jin Ahn](https://www.linkedin.com/in/sung-jin-ahn/)
+- [Gabriella Richmond](https://www.linkedin.com/in/gabriella-richmond/)
+- [Kia Neitzell](https://www.linkedin.com/in/kia-neitzell-870559162/)
 
 ## License
 This project is licensed under the MIT License.
