@@ -10,7 +10,8 @@
   font-size: min(20vw, 30px);
   color: black;
   border-radius: 5px;
-  align
+  margin-left: ;
+  margin-top: 50px;
 }
 
 a.active {

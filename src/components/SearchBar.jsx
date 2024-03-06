@@ -3,12 +3,11 @@ import './SearchBar.css'
 function SearchBar({ searchQuery, setSearchQuery }) {
 return (
     <div className="search-bar">
-    <label htmlFor="search">Search Parks:</label>
     <input
         type="text"
         id="search"
         value={searchQuery}
-        placeholder="Type a name to search..."
+        placeholder="Search Parks ex. Yellowstone"
         onChange={(e) => setSearchQuery(e.target.value)}
     />
     </div>

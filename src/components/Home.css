@@ -1,28 +1,30 @@
-.container {
+/* .container {
   position: relative;
-}
-
-/* .search-container {
-  position: absolute;
-  top: 0;
-  right: 0;
 } */
 
+.home-container {
+  margin-top: 0 px;
+}
+
+.nav-bar-container {
+  margin-left: 50px;
+}
 .parks-list-container {
+  position: relative;
   margin-top: 50px;
-  background-color: lightgrey;
-  border-radius: 5px;
+  background-image: linear-gradient(to right, rgb(234,182,118) , rgb(226,135,67));
+  border-radius: 8px;
   margin-left: 50px;
   margin-right: 50px;
   margin-bottom: 50px;
-  border: 2px solid black;
 }
 
-.sort-container {
+.sort-button {
   position: absolute;
-  top: 10;
+  top: 5;
   right: 0;
   margin-top: 0;
+  margin-bottom: 20px;
   /* border: 2px solid black;
   border-radius: 5px; */
 }
@@ -32,7 +34,11 @@
 }
 
 .search-sort-container {
+  z-index: 10;
   position: absolute;
+  margin-right: 50px;
+  margin-top: 40px;
+  margin-bottom: 20px;
   top: 0;
   right: 0;
 }
