@@ -9,7 +9,7 @@ import { WishlistContext } from "../components/WishlistContext";
 function Home() {
   const [searchQuery, setSearchQuery] = useState('');
   const { parks } = useContext(WishlistContext);
-  const [sortByAZ, setSortByAZ] = useState(true);
+  const [sortByAZ, setSortByAZ] = useState(false);
   
 
 
@@ -23,7 +23,8 @@ function Home() {
       if (sortByAZ) {
         return a.name.localeCompare(b.name); 
       } else {
-        return b.name.localeCompare(a.name); 
+        // return b.name.localeCompare(a.name);
+        return parseInt(a.visitors)<parseInt(b.visitors)
       }
     });
 
@@ -37,7 +38,7 @@ function Home() {
       <NavBar />
       <SearchBar setSearchQuery={setSearchQuery} />
       <button onClick={handleSortByAZ}>
-        {sortByAZ ? "Sort Z-A" : "Sort A-Z"}
+        {sortByAZ ? "Sort by Popularity" : "Sort A-Z"}
       </button>
       {filteredParks.length > 0 ? (
         <ParksList parks={filteredParks} />
