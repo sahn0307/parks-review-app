@@ -11,7 +11,8 @@ function SubmitPark() {
     name: "",
     image: "",
     location: "",
-    description: ""
+    description: "",
+    visitors: ""
   });
   const [submitted, setSubmitted] = useState(false);
   
@@ -41,9 +42,11 @@ function SubmitPark() {
         name: "",
         image: "",
         location: "",
-        description: ""
+        description: "",
+        visitors: ""
       });
       setParks(prevParks => [...prevParks, data]);
+      toast.success('Your park has been added!')
     } catch (err) {
       toast.error(err.message)
     }
@@ -51,10 +54,12 @@ function SubmitPark() {
 
   return(
     <>
-      <NavBar />
-      <h1>Submit a Park!</h1>
-      {submitted && <p>Form submitted successfully!</p>}
+      <div className="nav-bar-container">
+        <h1 className="banner">Park Pal</h1>
+        <NavBar />
+      </div>
       <div className="submit-container">
+        <h2>Submit a Park!</h2>
         <form className="new-park-form" onSubmit={handleFormSubmit} > 
           <input
             type="text"
@@ -62,6 +67,7 @@ function SubmitPark() {
             placeholder="Park name"
             value={formData.name}
             onChange={handleFormInputChange}
+            required
           />
           <input
             type="text"
@@ -69,6 +75,7 @@ function SubmitPark() {
             placeholder="Image URL"
             value={formData.image}
             onChange={handleFormInputChange}
+            required
           />
           <input
             type="text"
@@ -76,12 +83,20 @@ function SubmitPark() {
             placeholder="Park location by state"
             value={formData.location}
             onChange={handleFormInputChange}
+            required
           />
           <input
             type="text"
             name="description"
             placeholder="Park description (optional)"
             value={formData.description}
+            onChange={handleFormInputChange}
+          />
+          <input
+            type="text"
+            name="visitors"
+            placeholder="2023 Visitors (optional)"
+            value={formData.visitors}
             onChange={handleFormInputChange}
           />
           <button type="submit">Add Park</button>

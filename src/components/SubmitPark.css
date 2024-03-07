@@ -1,7 +1,12 @@
-
 .submit-container {
   margin: 0 auto;
-  border: solid 2px;
+  background-image: linear-gradient(to right, rgb(234, 182, 118), rgb(226, 135, 67));
+  width: 600px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 15px;
+  border-radius: 20px;
+  margin-top: 100px;
 }
 
 .new-park-form {
@@ -30,14 +35,28 @@
 }
 
 .new-park-form button {
-  background-color: #4CAF50;
+  background-color: #008cba;
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  align-items: center;
 }
 
 .new-park-form button:hover {
   background-color: #45a049;
 }
 
+h1 {
+  float: left;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+
+.nav-bar-container {
+  margin-left: 50px;
+}
+
+h2 {
+  text-align: center;
+}

@@ -24,7 +24,6 @@ function Home() {
       if (sortByAZ) {
         return a.name.localeCompare(b.name); 
       } else {
-        // return b.name.localeCompare(a.name);
         return parseInt(a.visitors)<parseInt(b.visitors)
       }
     });
@@ -36,10 +35,9 @@ function Home() {
 
   return (
     <>
-      
       <div className="nav-bar-container">
-      <h1 className="banner">Park Pal</h1>
-      <NavBar />
+        <h1 className="banner">Park Pal</h1>
+        <NavBar />
       </div>
       <div className="search-sort-container">
           <div className="search-container">

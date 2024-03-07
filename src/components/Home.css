@@ -1,9 +1,11 @@
-/* .container {
-  position: relative;
-} */
-
 .home-container {
   margin-top: 0 px;
+}
+
+.banner {
+  float: left;
+  margin-right: 50px;
+  margin-top: 50px;
 }
 
 .nav-bar-container {
@@ -25,8 +27,6 @@
   right: 0;
   margin-top: 0;
   margin-bottom: 20px;
-  /* border: 2px solid black;
-  border-radius: 5px; */
 }
 
 .sort-button:hover {

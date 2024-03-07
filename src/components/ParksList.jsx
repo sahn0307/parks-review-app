@@ -1,8 +1,6 @@
 import ParkCard from "./ParkCard";
 
-
 function ParksList({ parks }) {
-  
   
   return (
       <span className="cards">
@@ -13,4 +11,4 @@ function ParksList({ parks }) {
     )
   } 
 
-  export default ParksList
+export default ParksList
