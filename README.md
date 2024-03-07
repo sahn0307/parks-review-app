@@ -1,6 +1,7 @@
 # Park Pal
 
 Are you looking to actively seek out and pursue visits to national parks? Park Pal will give you a sense of adventure and determination in exploring different parks and adding them to your travel wishlist.
+![Main screenshot](https://github.com/sahn0307/parks-review-app/assets/12631152/4b9a7c73-9ac1-4b1c-87df-3c927e98c3c7)
 
 ## Table of Contents
 - Installation 
