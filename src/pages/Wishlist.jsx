@@ -11,8 +11,10 @@ const { wishlist } = useContext(WishlistContext);
 
   return(
     <>
-      <h1 className="banner">Park Pal</h1>
-      <NavBar />
+      <div className="nav-bar-container">
+        <h1 className="banner">Park Pal</h1>
+        <NavBar />
+      </div>
       <h2>Wishlist</h2>
       <span className="cards">
         {wishlist.map(park => (

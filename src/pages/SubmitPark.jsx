@@ -54,10 +54,12 @@ function SubmitPark() {
 
   return(
     <>
-      <h1 className="banner">Park Pal</h1>
-      <NavBar />
-      <h2>Submit a Park!</h2>
+      <div className="nav-bar-container">
+        <h1 className="banner">Park Pal</h1>
+        <NavBar />
+      </div>
       <div className="submit-container">
+        <h2>Submit a Park!</h2>
         <form className="new-park-form" onSubmit={handleFormSubmit} > 
           <input
             type="text"

@@ -36,10 +36,9 @@ function Home() {
 
   return (
     <>
-      
       <div className="nav-bar-container">
-      <h1 className="banner">Park Pal</h1>
-      <NavBar />
+        <h1 className="banner">Park Pal</h1>
+        <NavBar />
       </div>
       <div className="search-sort-container">
           <div className="search-container">
