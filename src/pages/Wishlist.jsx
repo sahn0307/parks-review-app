@@ -15,12 +15,14 @@ const { wishlist } = useContext(WishlistContext);
         <h1 className="banner">Park Pal</h1>
         <NavBar />
       </div>
-      <h2>Wishlist</h2>
-      <span className="cards">
-        {wishlist.map(park => (
-        <ParkCard key={park.id} {...park} />
-        ))}
-      </span>
+      <div className="wishlist-container">
+        <h2>Wishlist</h2>
+        <span className="cards">
+          {wishlist.map(park => (
+          <ParkCard key={park.id} {...park} />
+          ))}
+        </span>
+      </div>
     </>
   )
 }

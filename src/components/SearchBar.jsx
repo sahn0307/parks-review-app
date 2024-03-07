@@ -11,7 +11,7 @@ return (
         onChange={(e) => setSearchQuery(e.target.value)}
     />
     </div>
-);
+    );
 }
 
 export default SearchBar;

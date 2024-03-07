@@ -24,7 +24,6 @@ function Home() {
       if (sortByAZ) {
         return a.name.localeCompare(b.name); 
       } else {
-        // return b.name.localeCompare(a.name);
         return parseInt(a.visitors)<parseInt(b.visitors)
       }
     });

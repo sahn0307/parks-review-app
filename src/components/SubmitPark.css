@@ -6,14 +6,12 @@
   padding-bottom: 20px;
   padding-right: 15px;
   border-radius: 20px;
-  
+  margin-top: 100px;
 }
 
 .new-park-form {
   width: 400px;
   margin: 0 auto;
-  /* border: solid 2px;
-  border-radius: 5px; */
 }
 
 .new-park-form input,
