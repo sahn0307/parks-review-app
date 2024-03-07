@@ -7,7 +7,7 @@ function NavBar() {
     <>
     <Toaster/>
     <nav className="navbar">
-      <NavLink to="/">Home</NavLink>
+      <NavLink to="/">Parks</NavLink>
       <NavLink to="/SubmitPark">Submit a Park</NavLink>
       <NavLink to="/Wishlist">Travel Wishlist</NavLink>
     </nav>

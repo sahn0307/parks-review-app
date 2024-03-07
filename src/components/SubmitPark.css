@@ -1,12 +1,13 @@
-
 .submit-container {
   margin: 0 auto;
-  border: solid 2px;
+  /* border: solid 2px; */
 }
 
 .new-park-form {
   width: 400px;
   margin: 0 auto;
+  /* border: solid 2px;
+  border-radius: 5px; */
 }
 
 .new-park-form input,
@@ -35,9 +36,15 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  align-items: center;
 }
 
 .new-park-form button:hover {
   background-color: #45a049;
 }
 
+h1 {
+  float: left;
+  margin-right: 50px;
+  margin-top: 50px;
+}

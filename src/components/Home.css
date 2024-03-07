@@ -6,6 +6,12 @@
   margin-top: 0 px;
 }
 
+.banner {
+  float: left;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+
 .nav-bar-container {
   margin-left: 50px;
 }

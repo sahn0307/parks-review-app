@@ -1,0 +1,13 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  gap: 5px;
+}
+
+h1 {
+  float: left;
+  margin-right: 50px;
+  margin-top: 50px;
+}
