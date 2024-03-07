@@ -18,6 +18,15 @@ Are you looking to actively seek out and pursue visits to national parks? Park P
 - Run npm run dev.
 - Now command click on http://localhost:5174/.
 
+## Features
+- Toggle between Home, Submit a Park, and Travel Wishlist.
+- Search parks by name.
+- Sort parks from A-Z or by popularity.
+- Add parks to your wishlist that gets added into the wishlist component.
+- Remove parks that you no longer want to have in your wishlist.
+- Show details of each park, including location and popularity of park.
+- Submit a park! Using park name, image URL, location by state, and a description of the park.
+
 ## Usage
 
 ### Navigation
@@ -33,14 +42,7 @@ View Park Details: On the Home page, click the "Show Details" button on any park
 ### Submit a Park
 Submit a Park: Navigate to the Submit a Park page using the navigation bar. Fill out the form with the park's name, image URL, location by state, and a description of the park. Click the "Submit" button to add the park to the list of parks.
 
-## Features
-- Toggle between Home, Submit a Park, and Travel Wishlist.
-- Search parks by name.
-- Sort parks from A-Z or by popularity.
-- Add parks to your wishlist that gets added into the wishlist component.
-- Remove parks that you no longer want to have in your wishlist.
-- Show details of each park, including location and popularity of park.
-- Submit a park! Using park name, image URL, location by state, and a description of the park.
+
 
 ## Libraries Used
 - React: 18.2.0
